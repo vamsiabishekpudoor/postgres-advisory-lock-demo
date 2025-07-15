@@ -33,7 +33,7 @@ This Node.js project demonstrates how to use **PostgreSQL Advisory Transaction L
 ├── package.json     # Node.js project metadata and dependencies
 └── README.md        # Project documentation
 
----
+-------
 
 ## ⚙️ Setup
 
