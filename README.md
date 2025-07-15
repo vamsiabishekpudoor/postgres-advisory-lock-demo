@@ -40,8 +40,8 @@ This Node.js project demonstrates how to use **PostgreSQL Advisory Transaction L
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/pg-advisory-lock-demo.git
-cd pg-advisory-lock-demo
+git clone https://github.com/vamsiabishekpudoor/postgres-advisory-lock-demo.git
+cd postgres-advisory-lock-demo
 
 ### 2. Install dependencies
 
