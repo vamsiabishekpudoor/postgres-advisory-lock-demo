@@ -32,32 +32,36 @@ This Node.js project demonstrates how to use **PostgreSQL Advisory Transaction L
 ├── .env             # Stores your DATABASE_URL
 ├── package.json     # Node.js project metadata and dependencies
 └── README.md        # Project documentation
+```
+---
 
-**---**
-
-## ⚙️ **Setup**
+## ⚙️ Setup
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/vamsiabishekpudoor/postgres-advisory-lock-demo.git
 cd postgres-advisory-lock-demo
+```
 
 ### 2. Install dependencies
 
 ```bash
 npm install
+```
 
 ### 3. Add environment variables
 Create a .env file in the project root:
 
 ```bash
 DATABASE_URL=postgresql://username:password@localhost:5432/your_database
+```
 
 ## ▶️ Run the Demo
 
 ```bash
 node index.js
+```
 
 ## 📌 Sample Output
 
@@ -72,6 +76,7 @@ node index.js
 ❌ Failed to acquire lock for key: 123456789
 
 🎯 Summary: 1 out of 3 instances acquired the lock
+```
 
 
 ## 📚 What is `pg_try_advisory_xact_lock`?
